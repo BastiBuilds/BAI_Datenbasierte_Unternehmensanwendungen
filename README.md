@@ -32,36 +32,35 @@ jeweils genau eine Adresse mit Strasse (incl. Nummer), Postleitzahl, Ortsname un
 ## User Stories
 1. Als Benutzer möchte ich die verfügbaren Hotels durchsuchen, damit ich dasjenige 
 auswählen kann, welches meinen Wünschen entspricht.
-- Ich möchte alle Hotels in einer Stadt durchsuchen, damit ich das Hotel nach 
+  a. Ich möchte alle Hotels in einer Stadt durchsuchen, damit ich das Hotel nach 
 meinem bevorzugten Standort (Stadt) auswählen kann.
-- Ich möchte alle Hotels in einer Stadt nach der Anzahl der Sterne durchsuchen.
-c. Ich möchte alle Hotels in einer Stadt durchsuchen, die Zimmer haben, die 
+  b. Ich möchte alle Hotels in einer Stadt nach der Anzahl der Sterne durchsuchen.
+  c. Ich möchte alle Hotels in einer Stadt durchsuchen, die Zimmer haben, die 
 meiner Gästezahl entsprechen (nur 1 Zimmer pro Buchung), entweder mit oder 
 ohne Anzahl der Sterne.
-4
-d. Ich möchte alle Hotels in einer Stadt durchsuchen, die während meines 
+  d. Ich möchte alle Hotels in einer Stadt durchsuchen, die während meines 
 Aufenthaltes ("von" (start_date) und "bis" (end_date)) Zimmer für meine 
 Gästezahl zur Verfügung haben, entweder mit oder ohne Anzahl der Sterne, 
 damit ich nur relevante Ergebnisse sehe.
-e. Ich möchte die folgenden Informationen pro Hotel sehen: Name, Adresse, 
+  e. Ich möchte die folgenden Informationen pro Hotel sehen: Name, Adresse, 
 Anzahl der Sterne.
-f. Ich möchte ein Hotel auswählen, um die Details zu sehen (z.B. verfügbare 
+  f. Ich möchte ein Hotel auswählen, um die Details zu sehen (z.B. verfügbare 
 Zimmer [siehe 2]).
 3. Als Benutzer möchte ich Details zu verschiedenen Zimmertypen (EZ, DZ, 
 Familienzimmer), die in einem Hotel verfügbar sind, sehen, einschliesslich der 
 maximalen Anzahl von Gästen für dieses Zimmer, Beschreibung, Preis und 
 Ausstattung, um eine fundierte Entscheidung zu treffen.
-a. Ich möchte die folgenden Informationen pro Zimmer sehen: Zimmertyp, max. 
+  a. Ich möchte die folgenden Informationen pro Zimmer sehen: Zimmertyp, max. 
 Anzahl der Gäste, Beschreibung, Ausstattung, Preis pro Nacht.
-b. Ich möchte nur die verfügbaren Zimmer sehen.
+  b. Ich möchte nur die verfügbaren Zimmer sehen.
 4. Als Benutzer möchte ich ein Zimmer in einem bestimmten Hotel buchen, um meinen 
 Urlaub zu planen.
 Als Admin-Nutzer:
 1. Als Admin-Nutzer des Buchungssystems möchte ich die Möglichkeit haben, 
 Hotelinformationen zu pflegen, um aktuelle Informationen im System zu haben.
-a. Ich möchte neue Hotels zum System hinzufügen
-b. Ich möchte Hotels aus dem System entfernen
-c. Ich möchte die Informationen bestimmter Hotels aktualisieren, z. B. den 
+  a. Ich möchte neue Hotels zum System hinzufügen
+  b. Ich möchte Hotels aus dem System entfernen
+  c. Ich möchte die Informationen bestimmter Hotels aktualisieren, z. B. den 
 Namen, die Sterne usw.
 2. Als Admin-Nutzer des Buchungssystems möchte ich alle Buchungen aller Hotels 
 sehen können, um eine Übersicht zu erhalten.
