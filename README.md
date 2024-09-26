@@ -1,6 +1,6 @@
 # BAI_Datenbasierte_Unternehmensanwendungen
 
-## Projektaufgaben
+## Projektaufgaben Abfolgerung
 Die Projektarbeit gliedert sich thematisch in folgende vier Phasen (siehe Details in der 
 Semesterplanung):
 1. Verstehen und arbeiten mit strukturierten «Daten» unter Verwendung von 
