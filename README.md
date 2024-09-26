@@ -31,7 +31,7 @@ jeweils genau eine Adresse mit Strasse (incl. Nummer), Postleitzahl, Ortsname un
 
 ## User Stories
 ### Als Benutzer:
-**1. Als Benutzer möchte ich die verfügbaren Hotels durchsuchen, damit ich dasjenige 
+1. **Als Benutzer möchte ich die verfügbaren Hotels durchsuchen, damit ich dasjenige 
 auswählen kann, welches meinen Wünschen entspricht.**
     - Ich möchte alle Hotels in einer Stadt durchsuchen, damit ich das Hotel nach 
 meinem bevorzugten Standort (Stadt) auswählen kann.
@@ -47,24 +47,24 @@ damit ich nur relevante Ergebnisse sehe.
 Anzahl der Sterne.
     - Ich möchte ein Hotel auswählen, um die Details zu sehen (z.B. verfügbare 
 Zimmer [siehe 2]).
-**2. Als Benutzer möchte ich Details zu verschiedenen Zimmertypen (EZ, DZ, 
+2. **Als Benutzer möchte ich Details zu verschiedenen Zimmertypen (EZ, DZ, 
 Familienzimmer), die in einem Hotel verfügbar sind, sehen, einschliesslich der 
 maximalen Anzahl von Gästen für dieses Zimmer, Beschreibung, Preis und 
 Ausstattung, um eine fundierte Entscheidung zu treffen.**
     - Ich möchte die folgenden Informationen pro Zimmer sehen: Zimmertyp, max. 
 Anzahl der Gäste, Beschreibung, Ausstattung, Preis pro Nacht.
     - Ich möchte nur die verfügbaren Zimmer sehen.
-**3. Als Benutzer möchte ich ein Zimmer in einem bestimmten Hotel buchen, um meinen 
+3. **Als Benutzer möchte ich ein Zimmer in einem bestimmten Hotel buchen, um meinen 
 Urlaub zu planen.**
 
 ### Als Admin-Nutzer:
-**1. Als Admin-Nutzer des Buchungssystems möchte ich die Möglichkeit haben, 
+1. **Als Admin-Nutzer des Buchungssystems möchte ich die Möglichkeit haben, 
 Hotelinformationen zu pflegen, um aktuelle Informationen im System zu haben.**
     - Ich möchte neue Hotels zum System hinzufügen
     - Ich möchte Hotels aus dem System entfernen
     - Ich möchte die Informationen bestimmter Hotels aktualisieren, z. B. den 
 Namen, die Sterne usw.
-**2. Als Admin-Nutzer des Buchungssystems möchte ich alle Buchungen aller Hotels 
+2. **Als Admin-Nutzer des Buchungssystems möchte ich alle Buchungen aller Hotels 
 sehen können, um eine Übersicht zu erhalten.**
-**3. Ich möchte alle Buchungen bearbeiten können, um fehlende Informationen zu 
+3. **Ich möchte alle Buchungen bearbeiten können, um fehlende Informationen zu 
 ergänzen (z.B. Telefonnummer).**
