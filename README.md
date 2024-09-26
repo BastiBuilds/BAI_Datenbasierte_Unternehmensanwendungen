@@ -32,9 +32,9 @@ jeweils genau eine Adresse mit Strasse (incl. Nummer), Postleitzahl, Ortsname un
 ## User Stories
 1. Als Benutzer möchte ich die verfügbaren Hotels durchsuchen, damit ich dasjenige 
 auswählen kann, welches meinen Wünschen entspricht.
-a. Ich möchte alle Hotels in einer Stadt durchsuchen, damit ich das Hotel nach 
+1.1. Ich möchte alle Hotels in einer Stadt durchsuchen, damit ich das Hotel nach 
 meinem bevorzugten Standort (Stadt) auswählen kann.
-b. Ich möchte alle Hotels in einer Stadt nach der Anzahl der Sterne durchsuchen.
+1.2. Ich möchte alle Hotels in einer Stadt nach der Anzahl der Sterne durchsuchen.
 c. Ich möchte alle Hotels in einer Stadt durchsuchen, die Zimmer haben, die 
 meiner Gästezahl entsprechen (nur 1 Zimmer pro Buchung), entweder mit oder 
 ohne Anzahl der Sterne.
