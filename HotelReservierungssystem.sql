@@ -10,7 +10,7 @@ CREATE TABLE Bill (billId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, paymentId 
 CREATE TABLE Payment (paymentId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, method varchar(20) NOT NULL);
 CREATE TABLE BillArticles (articleId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, description varchar(20) NOT NULL, amount numeric(10, 2) NOT NULL);
 CREATE TABLE Room_Booking (roomId integer(10) NOT NULL, bookingId integer(10) NOT NULL, PRIMARY KEY (roomId, bookingId), FOREIGN KEY(roomId) REFERENCES Room(roomId), FOREIGN KEY(bookingId) REFERENCES Booking(bookingId));
-CREATE TABLE Room_Feature (roomId integer(10) NOT NULL, featureId integer(10) NOT NULL, PRIMARY KEY (roomId), FOREIGN KEY(roomId) REFERENCES Room(roomId), FOREIGN KEY(featureId) REFERENCES Feature(featureId));
+CREATE TABLE Room_Feature (roomId integer(10) NOT NULL, featureId integer(10) NOT NULL, PRIMARY KEY (roomId), FOREIGN KEY(roomId) REFERENCES Room(roomId), PRIMARY KEY (featureId), FOREIGN KEY(featureId) REFERENCES Feature(featureId));
 CREATE TABLE Bill_BillArticles (billId integer(10) NOT NULL, articleId integer(10) NOT NULL, PRIMARY KEY (billId, articleId), FOREIGN KEY(billId) REFERENCES Bill(billId), FOREIGN KEY(articleId) REFERENCES BillArticles(articleId));
 CREATE TABLE Hotel_PensionType (HotelhotelId integer(10) NOT NULL, pensionTypeId integer(10) NOT NULL, PRIMARY KEY (HotelhotelId, pensionTypeId), FOREIGN KEY(HotelhotelId) REFERENCES Hotel(hotelId), FOREIGN KEY(pensionTypeId) REFERENCES PensionType(pensionTypeId));
 CREATE UNIQUE INDEX Owner_ownerId ON Owner (ownerId);
