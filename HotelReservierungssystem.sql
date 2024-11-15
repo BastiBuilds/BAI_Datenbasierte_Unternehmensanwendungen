@@ -3,7 +3,6 @@ CREATE TABLE Address (addressId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, stre
 CREATE TABLE Hotel (hotelId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, ownerId integer(10) NOT NULL, addressId integer(10) NOT NULL, name varchar(50) NOT NULL, stars integer(1), type varchar(30) NOT NULL, isAccessible blob, numberRooms integer(5) NOT NULL, numberFloors integer(5) NOT NULL, constructionYear integer(4) NOT NULL, capacity integer(4) NOT NULL, employees integer(10) NOT NULL, operatingMode varchar(20) NOT NULL, FOREIGN KEY(ownerId) REFERENCES Owner(ownerId), FOREIGN KEY(addressId) REFERENCES Address(addressId));
 CREATE TABLE Client (clientId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, addressId integer(10) NOT NULL, name varchar(50) NOT NULL, surname varchar(50) NOT NULL, phoneNumber varchar(20) NOT NULL, email varchar(100) NOT NULL, additionalInfo varchar(255), FOREIGN KEY(addressId) REFERENCES Address(addressId));
 CREATE TABLE Room (roomId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, hotelId integer(10) NOT NULL, roomNumber integer(10) NOT NULL, floor integer(10) NOT NULL, type varchar(50) NOT NULL, isAccessible blob, hasBalcony blob, capacity integer(2) NOT NULL, pricePerNight numeric(10, 2) NOT NULL, description varchar(255), FOREIGN KEY(hotelId) REFERENCES Hotel(hotelId));
-CREATE TABLE Availability (availabilityId integer(10) NOT NULL);
 CREATE TABLE Feature (featureId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, type varchar(50));
 CREATE TABLE PensionType (pensionTypeId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, type varchar(50) NOT NULL);
 CREATE TABLE Booking (bookingId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, clientId integer(10) NOT NULL, startDate date NOT NULL, endDate date NOT NULL, bookingDate date NOT NULL, hasBeenCanceled blob NOT NULL, FOREIGN KEY(clientId) REFERENCES Client(clientId));
@@ -19,7 +18,6 @@ CREATE UNIQUE INDEX Address_addressId ON Address (addressId);
 CREATE UNIQUE INDEX Hotel_hotelId ON Hotel (hotelId);
 CREATE UNIQUE INDEX Client_clientId ON Client (clientId);
 CREATE UNIQUE INDEX Room_roomId ON Room (roomId);
-CREATE UNIQUE INDEX Availability_availabilityId ON Availability (availabilityId);
 CREATE UNIQUE INDEX Feature_featureId ON Feature (featureId);
 CREATE UNIQUE INDEX PensionType_pensionTypeId ON PensionType (pensionTypeId);
 CREATE UNIQUE INDEX Booking_bookingId ON Booking (bookingId);
