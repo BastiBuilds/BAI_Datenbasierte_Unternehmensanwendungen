@@ -68,3 +68,24 @@ Namen, die Sterne usw.
 sehen können, um eine Übersicht zu erhalten.**
 3. **Ich möchte alle Buchungen bearbeiten können, um fehlende Informationen zu 
 ergänzen (z.B. Telefonnummer).**
+
+## Eigene User Stories
+### Als User
+1. **Buchungen und Rechnungen anzeigen**
+    - Als User möchte ich all meine Buchungen und die dazugehoerigen Rechnungen sehen, damit ich einen Ueberblick über meine bisherigen Transaktionen habe.
+
+2. **Zahlungsmittel einsehen**
+    - Als User möchte ich alle verfügbaren Zahlungsmittel sehen, um zu prüfen, ob ich mit Twint bezahlen kann.
+
+3. **Pensionsarten in Luzerner Hotels anzeigen**
+    - Als User möchte ich alle Pensionsarten von Hotels in Luzern sehen, um eine informierte Wahl treffen zu können.
+  
+### Als Admin
+1. **Unbezahlte Rechnungen und Buchungen mit Kundendetails**
+    - Als Admin möchte ich alle Rechnungen und Buchungen inklusive der dazugehörigen Kundendaten sehen, bei denen die Rechnung noch nicht bezahlt wurde, um offene Zahlungen nachzuverfolgen.
+
+2. **Top 10 Hotels nach Grösse und Angestelltenzahl**
+    - Als Admin möchte ich die 10 grössten Hotels inklusive ihrer Adresse sehen, geordnet nach der maximalen Gästeaufnahme und anschliessend nach der Anzahl der Angestellten, um eine Übersicht über die grössten Hotels zu haben.
+
+3. **Abgebrochene Buchungen mit Details**
+    - Als Admin möchte ich alle abgebrochenen Buchungen inklusive Gästeinformationen, Raum- und Hoteldetails sehen, um sehen zu können, welche Hotel und Räume am schlechtesten laufen und ob es einen Zusammenhang mit den Gästen gibt.
