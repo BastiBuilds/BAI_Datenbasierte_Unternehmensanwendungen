@@ -103,11 +103,11 @@ articleId),
 FOREIGN KEY(billId) REFERENCES Bill(billId),
 FOREIGN KEY(articleId) REFERENCES BillArticles(articleId));
 CREATE TABLE Hotel_PensionType (
-HotelhotelId  integer(10) NOT NULL,
+hotelId  integer(10) NOT NULL,
 pensionTypeId integer(10) NOT NULL,
-PRIMARY KEY (HotelhotelId,
+PRIMARY KEY (hotelId,
 pensionTypeId),
-FOREIGN KEY(HotelhotelId) REFERENCES Hotel(hotelId),
+FOREIGN KEY(hotelId) REFERENCES Hotel(hotelId),
 FOREIGN KEY(pensionTypeId) REFERENCES PensionType(pensionTypeId));
 CREATE UNIQUE INDEX Owner_ownerId
 ON Owner (ownerId);
