@@ -132,7 +132,6 @@ ON Payment (paymentId);
 CREATE UNIQUE INDEX BillArticles_articleId
 ON BillArticles (articleId);
 
-
 INSERT INTO "Address" VALUES(1,'Münsterplatz','54','5000','Aarau','CH');
 INSERT INTO "Address" VALUES(2,'Rennweg','31','9000','St. Gallen','CH');
 INSERT INTO "Address" VALUES(3,'Pilatusstrasse','34','6011','Kriens','CH');
@@ -258,7 +257,7 @@ INSERT INTO "Address" VALUES(122,'Luzernerstrasse','34','2324','Lausanne','CH');
 INSERT INTO "Address" VALUES(123,'Hügelstrasse','57','1286','Geneva','CH');
 INSERT INTO "Address" VALUES(124,'Im Feld','36','2592','Bern','CH');
 INSERT INTO "Address" VALUES(125,'Steinstrasse','72','6756','Bern','CH');
-INSERT INTO "Address" VALUES(126,'Waldweg','92','8611','Zurich','CH');
+INSERT INTO "Address" VALUES(126,'Waldweg','2','8611','Zurich','CH');
 INSERT INTO "Address" VALUES(127,'Dorfstrasse','7','4787','Zurich','CH');
 INSERT INTO "Address" VALUES(128,'Kastanienweg','66','6948','Bern','CH');
 INSERT INTO "Address" VALUES(129,'Sonnenstrasse','54','1203','Bern','CH');
@@ -271,7 +270,7 @@ INSERT INTO "Address" VALUES(135,'Alpenstrasse','60','2742','Geneva','CH');
 INSERT INTO "Address" VALUES(136,'Kirchgasse','45','8403','Lucerne','CH');
 INSERT INTO "Address" VALUES(137,'Im Feld','1','9947','Lausanne','CH');
 INSERT INTO "Address" VALUES(138,'Alpenstrasse','3','4438','Zurich','CH');
-INSERT INTO "Address" VALUES(139,'Schulstrasse','78','5618','Zurich','CH');
+INSERT INTO "Address" VALUES(139,'Schulstrasse','71','5618','Zurich','CH');
 INSERT INTO "Address" VALUES(140,'Feldstrasse','70','8116','Geneva','CH');
 INSERT INTO "Address" VALUES(141,'Bachstrasse','45','9404','Zurich','CH');
 INSERT INTO "Address" VALUES(142,'Adlerstrasse','98','8306','Bern','CH');
