@@ -820,12 +820,10 @@ INSERT INTO "Payment" VALUES('1','PayPal');
 INSERT INTO "Payment" VALUES('2','Lastschrift');
 INSERT INTO "Payment" VALUES('3','Geschenkkarte');
 INSERT INTO "Payment" VALUES('4','Debitkarte');
-INSERT INTO "Payment" VALUES('5','Lastschrift');
-INSERT INTO "Payment" VALUES('6','Kreditkarte');
-INSERT INTO "Payment" VALUES('7','PayPal');
-INSERT INTO "Payment" VALUES('8','Überweisung');
-INSERT INTO "Payment" VALUES('9','Mobile Zahlung');
-INSERT INTO "Payment" VALUES('10','Geschenkkarte');
+INSERT INTO "Payment" VALUES('5','Kreditkarte');
+INSERT INTO "Payment" VALUES('6','Überweisung');
+INSERT INTO "Payment" VALUES('7','Mobile Zahlung');
+INSERT INTO "Payment" VALUES('8','Twint');
 
 INSERT INTO "PensionType" VALUES('1','Abendessen');
 INSERT INTO "PensionType" VALUES('2','Mittagessen');
