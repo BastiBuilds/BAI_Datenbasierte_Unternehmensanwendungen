@@ -69,23 +69,23 @@ sehen können, um eine Übersicht zu erhalten.**
 3. **Ich möchte alle Buchungen bearbeiten können, um fehlende Informationen zu 
 ergänzen (z.B. Telefonnummer).**
 
-## Eigene User Stories
-### Als User
+# 4.1 Eigene User Stories
+## Als Benutzer
 1. **Buchungen und Rechnungen anzeigen**
-    - Als User möchte ich all meine Buchungen und die dazugehörigen Rechnungen sehen, damit ich einen Überblick über meine bisherigen Transaktionen habe.
+    - (EBUS1a) Als Benutzer möchte ich all meine Buchungen und die dazugehörigen Rechnungen sehen, damit ich einen Überblick über meine bisherigen Transaktionen habe.
 
 2. **Zahlungsmittel einsehen**
-    - Als User möchte ich alle verfügbaren Zahlungsmittel sehen, um zu prüfen, ob ich mit Twint bezahlen kann.
+    - (EBUS2a) Als Benutzer möchte ich alle verfügbaren Zahlungsmittel sehen, um zu prüfen, ob ich mit Twint bezahlen kann.
 
-3. **Pensionsarten in Luzerner Hotels anzeigen**
-    - Als User möchte ich alle Pensionsarten von Hotels in Luzern sehen, um eine informierte Wahl treffen zu können.
+3. **Pensionsarten in Basel Hotels anzeigen**
+    - (EBUS3a) Als Benutzer möchte ich alle Pensionsarten von Hotels in Basel sehen, um eine informierte Wahl treffen zu können.
   
-### Als Admin
+## Als Admin
 1. **Unbezahlte Rechnungen und Buchungen mit Kundendetails**
-    - Als Admin möchte ich alle Rechnungen und Buchungen inklusive der dazugehörigen Kundendaten sehen, bei denen die Rechnung noch nicht bezahlt wurde, um offene Zahlungen nachzuverfolgen.
+    - (EAUS1a) Als Admin möchte ich alle Rechnungen und Buchungen inklusive der dazugehörigen Kundendaten sehen, bei denen die Rechnung noch nicht bezahlt wurde, um offene Zahlungen nachzuverfolgen.
 
 2. **Top 10 Hotels nach Grösse und Angestelltenzahl**
-    - Als Admin möchte ich die 10 grössten Hotels inklusive ihrer Adresse sehen, geordnet nach der maximalen Gästeaufnahme und anschliessend nach der Anzahl der Angestellten, um eine Übersicht zu haben.
+    - (EAUS2a)Als Admin möchte ich die 10 grössten Hotels inklusive ihrer Adresse sehen, geordnet nach der maximalen Gästeaufnahme und anschliessend eine zusätzliche Anzeige anhand der Anzahl der Angestellten, um eine Übersicht zu haben.
 
-3. **Abgebrochene Buchungen mit Details**
-    - Als Admin möchte ich alle abgebrochenen Buchungen inklusive Gästeinformationen, Raum- und Hoteldetails sehen, um sehen zu können, welche Hotel und Räume am schlechtesten laufen und ob es einen Zusammenhang mit den Gästen gibt.
+3. **Stornierte Buchungen mit Details**
+    - (EAUS3a) Als Admin möchte ich alle stornierte Buchungen inklusive Gästeinformationen, Raum- und Hoteldetails sehen, um sehen zu können, welche Hotel und Räume am schlechtesten laufen und ob es einen Zusammenhang mit den Gästen gibt.
