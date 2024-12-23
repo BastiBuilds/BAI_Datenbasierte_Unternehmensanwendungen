@@ -825,10 +825,10 @@ INSERT INTO "Payment" VALUES('6','Überweisung');
 INSERT INTO "Payment" VALUES('7','Mobile Zahlung');
 INSERT INTO "Payment" VALUES('8','Twint');
 
-INSERT INTO "PensionType" VALUES('1','Abendessen');
-INSERT INTO "PensionType" VALUES('2','Mittagessen');
-INSERT INTO "PensionType" VALUES('3','Vollverpflegung');
-INSERT INTO "PensionType" VALUES('4','Übernachtung mit Frühstück');
+INSERT INTO "PensionType" VALUES(1,'Abendessen');
+INSERT INTO "PensionType" VALUES(2,'Mittagessen');
+INSERT INTO "PensionType" VALUES(3,'Vollverpflegung');
+INSERT INTO "PensionType" VALUES(4,'Übernachtung mit Frühstück');
 
 INSERT INTO "Room" VALUES (1, 34, 804, 8, 'Queen Room', 0, 0, 4, 183.33, 'Das Zimmer 804 ist ein Queen Room im 8. Stock und kostet 183.33 pro Nacht.');
 INSERT INTO "Room" VALUES (2, 1, 802, 8, 'Family Room', 0, 0, 8, 180.14, 'Das Zimmer 802 ist ein Family Room im 8. Stock und kostet 180.14 pro Nacht.');
